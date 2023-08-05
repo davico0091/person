@@ -1,0 +1,10 @@
+spring:
+  data:
+    mongodb:
+      database: 'myDatabase'
+    #uri: mongodb://localhost:27017/myDatabase
+  profiles:
+    active: dev
+person:
+  name: 'David'
+  lastName: 'Perez'
